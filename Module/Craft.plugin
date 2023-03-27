@@ -1,0 +1,4 @@
+[Script]
+http-response ^https://api\.craft\.do/auth/v\d/profile$ requires-body=1,script-path= https://raw.githubusercontent.com/Ika2i-Shinji/Quantumult-X/main/Script/Craft.js
+[MITM] 
+hostname = api.craft.do
